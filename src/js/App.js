@@ -6,10 +6,22 @@ import Home from './Home.jsx';
 import LogoQuiz from './Logo-Quiz.jsx';
 import AnimalQuiz from './Animal-Quiz.jsx';
 import Credit from './Credit.jsx';
+import Adidas from '../img/logo/Adidas.png';
+import Android from '../img/logo/android.png';
+import Apple from '../img/logo/apple.png';
+import BurgerKing from '../img/logo/burger-king.png';
+import Carambar from '../img/logo/carambar.png';
+import CocaCola from '../img/logo/cocacola.png';
+import EdenSchool from '../img/logo/ednschool.png';
+import Pepsi from '../img/logo/Pepsi.png';
+import Puma from '../img/logo/puma.png';
+
+
 
 class App extends Component {
   render() {
     return (
+
       <div className="App">
         <Switch>
            <Route exact path="/"              component={Home} />
@@ -21,5 +33,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;

@@ -43,7 +43,7 @@ h1{
   margin: auto;
   padding: 0;
 }
-span{
+.spanh1{
   text-align: center;
   background-color: #fdde13;
   width: 10vw;

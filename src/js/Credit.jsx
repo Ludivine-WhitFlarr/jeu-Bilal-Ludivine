@@ -5,7 +5,7 @@ class Credit extends Component {
     return (
       <Fragment>
       <div>
-        <p>Credit</p>
+        <h2>Credit</h2>
       </div>
       </Fragment>
     );

@@ -5,7 +5,7 @@ class AnimalQuiz extends Component {
     return (
       <Fragment>
       <div>
-        <p>AnimalQuiz</p>
+        <h2>AnimalQuiz</h2>
       </div>
       </Fragment>
     );

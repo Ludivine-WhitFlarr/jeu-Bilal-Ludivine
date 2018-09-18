@@ -5,9 +5,6 @@ class Home extends Component {
   render() {
     return (
       <Fragment>
-          <div className="Header">
-              <h1><span>Q</span>uiz</h1>
-          </div>
           <div className="bouton">
             <div className="butdiv">
               <a href="/LogoQuiz">Logo Quiz</a>

@@ -73,6 +73,11 @@ class LogoQuiz extends Component {
         <h1>Logo Quizzup</h1>
         <Logo key={currentIndex} logo={current.img} name={current.value} onWin={this.onWin} onPlay={this.onPlay} />
       </div>
+          <div className="bouton">
+            <div className="butdiv game">
+              <a href="/LogoQuiz">Retour</a>
+            </div>
+          </div>
       </Fragment>
     );
   }

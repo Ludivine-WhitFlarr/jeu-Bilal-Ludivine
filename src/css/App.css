@@ -17,6 +17,9 @@ body{
   flex-direction: column;
   padding: auto;
 }
+.game {
+  margin: -15vh;
+}
 .bouton a{
   font-family: "candy";
   text-decoration: none;
@@ -44,13 +47,10 @@ h1{
   margin: auto;
   padding: 0;
 }
-.spanh1{
+h1 > img {
   text-align: center;
-  background-color: #fdde13;
-  width: 10vw;
   border-radius: 90%;
   margin: auto;
-  padding: 0 2.5vw;
 }
 .Quiz{
   width: 900px;

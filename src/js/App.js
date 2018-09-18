@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
+import Logo from "../img/logo-Logo.png";
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './Home.jsx';
@@ -16,7 +17,8 @@ class App extends Component {
 
       <div className="App">
           <div className="Header">
-              <h1><span className="spanh1">Q</span>uiz</h1>
+
+              <h1><img className="imgh1" src={Logo}/>uiz</h1>
           </div>
         <Switch>
            <Route exact path="/"              component={Home} />

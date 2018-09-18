@@ -54,7 +54,7 @@ span{
 }
 .Quiz{
   width: 900px;
-  height: 500px;
+  height: auto;
   border:1px solid;
   margin: auto;
   margin-top: 100px;
@@ -86,19 +86,23 @@ span{
   width: 100px;
   margin-left: 1em;
 }
-.Logo > ul {
+.Logo > ul , .Animal > ul  {
   list-style: none;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
- .Logo > ul > li{
+ .Logo > ul > li , .Animal > ul > li{
    font-size: 10pt;
    margin-bottom: 1em;
  }
 
- .Logo > ul > li > button{
+ .Animal > img {
+   width: 200px;
+ }
+
+ .Logo > ul > li > button , .Animal > ul > li > button{
    padding: 1em 3em;
  }
 
@@ -106,3 +110,12 @@ span{
    display: flex;
    justify-content: space-around;
  }
+
+.word li {
+     border: 1px dashed grey;
+     height: 1em;
+     width: 1em;
+     font-size: 2em;
+     padding: 0.25em;
+     margin: 0.05em;
+}

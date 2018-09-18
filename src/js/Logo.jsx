@@ -34,18 +34,20 @@ class Logo extends Component {
 
   render () {
     const { letters, goodLetters, usedLetters } = this.state;
+    const { name } = this.props;
 
     return (
       <div className="Logo">
         <img src={this.props.logo} />
-        <ul>
+        <ul className="word">
           {
-            goodLetters.map((letter) => (
+            [...goodLetters, ...(new Array(name.length - goodLetters.length)).fill("")]
+            .map((letter) => (
               <li>{letter}</li>
             ))
           }
         </ul>
-        <ul>
+        <ul className="letters">
           {
             letters.map((letter , i) => (
               <li>
